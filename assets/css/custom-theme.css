@@ -1,0 +1,407 @@
+/*dashboard*/
+
+/* Ubah background wrapper */
+.content-wrapper {
+    background-color: #f8d6e0 !important;
+}
+
+/* Sidebar kiri */
+.main-sidebar {
+    background-color: #ffffff !important;
+}
+
+/* Warna teks menu sidebar */
+.nav-sidebar .nav-link {
+    color: #d63384 !important;
+    font-weight: 500;
+}
+
+/* Hover menu sidebar */
+.nav-sidebar .nav-link:hover {
+    background-color: #ffe3ec !important;
+    color: #d63384 !important;
+}
+
+/* Menu aktif */
+.nav-sidebar .nav-link.active {
+    background-color: #d63384 !important;
+    color: white !important;
+}
+
+/* Brand logo text */
+.brand-text {
+    color: #d63384 !important;
+    font-weight: bold;
+}
+
+/* Breadcrumb */
+.breadcrumb-item,
+.breadcrumb-item a {
+    color: #d63384 !important;
+}
+
+/* Header atas */
+.main-header {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #f3c7d9;
+}
+
+/* Ubah background input search */
+.form-control-sidebar {
+    background-color: #f8d6e0 !important; /* baby pink */
+    color: #d63384 !important;           /* pink tua */
+    border: 1px solid #d63384 !important;
+}
+
+/* Placeholder (tulisan “Search”) */
+.form-control-sidebar::placeholder {
+    color: #d63384 !important;
+    opacity: 0.8;
+}
+
+/* Ubah tombol pencarian */
+.btn-sidebar {
+    background-color: #d63384 !important;  /* tombol pink tua */
+    color: white !important;
+    border: 1px solid #d63384 !important;
+}
+
+/* Ikon pencarian */
+.btn-sidebar i {
+    color: white !important;
+}
+
+/* Navbar utama background baby pink dan teks pink tua */
+.main-header {
+    background-color: #f8d6e0 !important; /* baby pink */
+    color: #d63384 !important;            /* pink tua */
+    border-bottom: 1px solid #d63384;
+}
+
+/* Warna teks/icon navbar */
+.main-header .nav-link,
+.main-header .fas {
+    color: #d63384 !important;
+}
+
+/* Input search pada navbar */
+.form-control-navbar {
+    background-color: #fce4ec !important; /* pink lebih muda */
+    color: #d63384 !important;
+    border: 1px solid #d63384;
+}
+
+/* Placeholder input */
+.form-control-navbar::placeholder {
+    color: #d63384 !important;
+}
+
+/* Tombol pencarian dan close (X) */
+.btn-navbar {
+    background-color: #d63384 !important;
+    color: white !important;
+    border: none;
+}
+
+
+/*register*/
+/* Hover efek opsional */
+.btn-navbar:hover {
+    background-color: #c2185b !important;
+}
+
+.main-header,
+.btn-navbar,
+.form-control-navbar {
+    transition: all 0.3s ease;
+}
+
+  body {
+    background-color: #fff0f5; /* soft pink background */
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .content-wrapper {
+    background-color: #fff0f5 !important;
+    padding: 30px;
+  }
+
+  .card {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 8px 20px rgba(255, 192, 203, 0.4);
+    background-color: #fff;
+  }
+
+  .card-header {
+    background-color: #ffc0cb;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+  }
+
+  .card-header h2 {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .form-group label {
+    color: #d63384;
+    font-weight: 500;
+  }
+
+  .form-control {
+    border-radius: 10px;
+    border: 1px solid #f8c8dc;
+    background-color: #fff8fb;
+  }
+
+  .btn-primary {
+    background-color: #ff69b4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+
+  .btn-primary:hover {
+    background-color: #ff85c1;
+  }
+
+  .box-footer {
+    text-align: right;
+    padding: 15px;
+  }
+
+  .breadcrumb {
+    background: transparent;
+  }
+
+  h1, h2 {
+    color: #d63384;
+  }
+
+/*footer*/
+  .footer-custom {
+    background-color: #ffe4ec; /* soft baby pink */
+    padding: 20px 10px;
+    color: #d63384;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border-top: 2px solid #ffc0cb;
+    margin-top: 30px;
+  }
+
+  .footer-custom strong {
+    color: #ff69b4;
+  }
+
+  .footer-custom p {
+    margin: 0;
+  }
+
+  /*tulisan dashboard*/
+ /* Font Google: tambahkan ini di <head> HTML juga ya nanti */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Comic+Neue:wght@700&display=swap');
+
+/* Gaya untuk tulisan di dashboard */
+.center-welcome-text {
+  font-family: 'Fredoka One', cursive;
+  color: #d63384;
+  font-size: 50px;
+  text-align: center;
+  padding: 70px 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+
+}
+
+
+/*login*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body.login-page {
+  background: linear-gradient(to right, #ffe6f0, #ffd6eb);
+  font-family: 'Poppins',  sans-serif;
+}
+
+.login-box {
+  margin-top: 0px;
+}
+
+.login-logo a {
+  color: #d63384;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #fff;
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(214, 51, 132, 0.3);
+  background: #fff0f5;
+}
+
+.card-body {
+  background-color: #fff5fa;
+  border-radius: 20px;
+}
+
+.login-box-msg {
+  font-size: 18px;
+  color: #d63384;
+}
+
+.input-group-text {
+  background-color: #ffcce5;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: #d63384;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #ffb6c1;
+}
+
+.btn-primary {
+  background-color: #d63384;
+  border-color: #d63384;
+  border-radius: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #ff5ca2;
+  border-color: #ff5ca2;
+}
+
+a {
+  color: #d63384;
+}
+
+a:hover {
+  color: #ff3399;
+  text-decoration: underline;
+}
+
+
+/*form dokter*/
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff0f5;
+  }
+
+  .card {
+    border-radius: 20px;
+    background-color: #ffe4ec;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .card-header {
+    background-color: #ffb6c1;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  h1, .card-title {
+    font-weight: 700;
+    color: #d63384;
+  }
+
+  .form-group label {
+    color: #d63384;
+    font-weight: 500;
+  }
+
+  .form-control {
+    border-radius: 10px;
+    border: 1px solid #f5c2c7;
+  }
+
+  .btn-primary {
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    background-color: #ff1493;
+  }
+
+  .breadcrumb a,
+  .breadcrumb-item.active {
+    color: #c2185b !important;
+  }
+
+  .centered-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-box {
+  width: 100%;
+  max-width: 500px; /* Biar tidak terlalu lebar di desktop */
+  background-color: #ffc0cb;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.main-header {
+  margin-left: 0 !important;   /* hilangkan jarak kiri default dari sidebar */
+  width: 100% !important;      /* lebar penuh */
+  left: 0 !important;          /* posisinya dari kiri */
+}
+
+/* Font lucu */
+table {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff0f5;
+  box-shadow: 0 0 10px rgba(255, 192, 203, 0.5);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Header tabel */
+table thead {
+  background-color: #fc8fba;
+  color: #fff;
+}
+
+table thead th {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Baris tabel */
+table tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ffc0cb;
+  text-align: center;
+}
+
+/* Hover effect */
+table tbody tr:hover {
+  background-color: #ffe4e1;
+  transition: 0.3s;
+}
+
+/* Search input */
+.dataTables_filter input {
+  border: 2px solid #ff69b4;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-family: 'Comic Neue', cursive;
+}
+
+
